@@ -1,0 +1,40 @@
+body{
+    background: rgba(200, 206, 206, 0.2);
+    padding: 50px  280px 0px 280px;
+}
+
+.grid {
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: stretch;
+    width: 700px;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.mole{
+    background-image: url('mole.png');
+    background-size: cover;
+}
+
+.alignment{
+    background-image: url('fields.png');
+    background-size: contain;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.49), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.header{
+    font-family:'Raleway', Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.square{
+    height: 80px;
+    width: 80px;
+   /*  border-style: solid;
+    border-radius: 10%;
+    border-color: rgb(31, 30, 29);  */
+}
