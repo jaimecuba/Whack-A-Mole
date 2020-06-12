@@ -7,6 +7,7 @@ let result = 0
 let currentTime = timeLeft.textContent
 
 function randomSquare(){
+    
     square.forEach(className => {
         className.classList.remove('mole')
     })
